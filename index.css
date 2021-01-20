@@ -1,15 +1,15 @@
 body{
   background-color: rgb(40, 40, 40);
   color: rgb(51, 255, 51);
-  padding-bottom:[footer-height]
+  padding-bottom:[footer-height];
 }
-h1{
-  text-align: center;
-}
+
 #header{
   text-align: center;
   text-decoration: underline;
   text-decoration-style: dotted;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 table{
@@ -30,4 +30,37 @@ dt{
 
 dd{
   text-align: right;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 16px 8px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  background-color: rgba(40, 40, 40, 0.8);
+  color: rgb(51, 255, 51);
+  border: 2px solid #4CAF50;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: rgb(51, 255, 51);
+  color: black;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body>footer>div>a {
+  flex-grow: 1;
+  width: 33%;
 }
