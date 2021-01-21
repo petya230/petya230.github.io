@@ -64,3 +64,11 @@ body>footer>div>a {
   flex-grow: 1;
   width: 33%;
 }
+
+body>p>img{
+  width: 30%;
+}
+
+.Video{
+  width: 50%;
+}
